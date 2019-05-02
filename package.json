@@ -19,6 +19,9 @@
   "dependencies": {},
   "license": "MIT",
   "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
     "env": {
       "node": true,
       "es6": true
