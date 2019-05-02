@@ -1,0 +1,45 @@
+{
+  "name": "scaffold",
+  "version": "0.0.1",
+  "description": "A simple project scaffolding tool",
+  "repository": "github:brennanfee/scaffold",
+  "homepage": "https://github.com/brennanfee/scaffold#readme",
+  "bugs": "https://github.com/brennanfee/scaffold/issues",
+  "author": "Brennan Fee <brennan@github.mailbots.org> (https://github.com/brennanfee)",
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.13.7",
+    "htmlhint": "^0.9.13",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:prettier/recommended"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "proseWrap": "always",
+    "semi": false,
+    "singleQuote": true,
+    "requirePragma": false,
+    "insertPragma": false
+  },
+  "scripts": {
+    "test": "echo 'Error: no tests specified' && exit 1"
+  }
+}
